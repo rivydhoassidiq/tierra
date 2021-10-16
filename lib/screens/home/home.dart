@@ -47,7 +47,7 @@ class Home extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    width: 299,
+                    width: 250,
                     padding: EdgeInsets.only(top: 24),
                     margin: EdgeInsets.only(left: 24, right: 24),
                     child: const TextField(

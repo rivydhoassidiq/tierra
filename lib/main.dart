@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tierra/screens/profile/profile.dart';
 
 import 'screens/bottom_navbar.dart';
 import 'package:get/get.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       title: 'Tierra',
       debugShowCheckedModeBanner: false,
       home: BottomNavBar(),
