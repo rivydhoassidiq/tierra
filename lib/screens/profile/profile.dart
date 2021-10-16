@@ -210,7 +210,7 @@ class ButtonPengiriman extends StatelessWidget {
             color: Colors.black,
           ),
           leading: const Icon(
-            Icons.location_on,
+            Icons.location_on_outlined,
           ),
           title: Text(
             'Alamat Pengiriman',
@@ -241,7 +241,7 @@ class ButtonDetail extends StatelessWidget {
             color: Colors.black,
           ),
           leading: const Icon(
-            Icons.account_circle,
+            Icons.account_circle_outlined,
           ),
           title: Text(
             'Detail Saya',
